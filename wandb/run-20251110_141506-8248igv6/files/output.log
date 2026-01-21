@@ -1,0 +1,195 @@
+2025-11-10 14:15:08,656 [INFO] Start training
+2025-11-10 14:15:10,491 [INFO] dataset_ratios not specified, datasets will be concatenated (map-style datasets) or chained (webdataset.DataPipeline).
+2025-11-10 14:15:10,492 [INFO] Loaded 51189 records for train split from the dataset.
+batch sizes [[1]]
+module.llama_model.base_model.model.model.layers.0.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.0.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.0.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.0.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.1.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.1.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.1.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.1.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.2.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.2.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.2.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.2.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.3.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.3.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.3.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.3.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.4.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.4.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.4.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.4.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.5.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.5.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.5.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.5.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.6.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.6.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.6.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.6.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.7.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.7.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.7.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.7.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.8.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.8.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.8.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.8.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.9.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.9.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.9.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.9.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.10.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.10.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.10.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.10.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.11.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.11.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.11.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.11.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.12.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.12.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.12.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.12.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.13.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.13.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.13.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.13.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.14.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.14.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.14.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.14.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.15.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.15.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.15.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.15.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.16.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.16.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.16.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.16.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.17.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.17.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.17.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.17.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.18.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.18.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.18.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.18.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.19.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.19.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.19.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.19.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.20.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.20.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.20.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.20.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.21.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.21.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.21.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.21.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.22.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.22.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.22.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.22.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.23.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.23.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.23.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.23.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.24.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.24.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.24.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.24.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.25.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.25.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.25.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.25.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.26.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.26.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.26.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.26.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.27.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.27.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.27.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.27.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.28.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.28.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.28.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.28.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.29.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.29.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.29.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.29.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.30.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.30.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.30.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.30.self_attn.v_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.31.self_attn.q_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.31.self_attn.q_proj.lora_B.weight
+module.llama_model.base_model.model.model.layers.31.self_attn.v_proj.lora_A.weight
+module.llama_model.base_model.model.model.layers.31.self_attn.v_proj.lora_B.weight
+module.llama_proj.weight
+module.llama_proj.bias
+2025-11-10 14:15:10,513 [INFO] number of trainable parameters: 56627200
+/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/runners/runner_base.py:137: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self._scaler = torch.cuda.amp.GradScaler()
+2025-11-10 14:15:10,514 [INFO] Start training epoch 0, 1000 iters per inner epoch.
+/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/tasks/base_task.py:220: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=use_amp):
+/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/models/base_model.py:137: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  return torch.cuda.amp.autocast(dtype=dtype)
+/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:1044: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/utils/checkpoint.py:85: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+Train: data epoch: [0]  [   0/1000]  eta: 0:09:47  lr: 0.000001  loss: 2.3307  time: 0.5875  data: 0.0000  max mem: 17846
+Traceback (most recent call last):
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py", line 104, in <module>
+    main()
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py", line 100, in main
+    runner.train()
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/runners/runner_base.py", line 377, in train
+    train_stats = self.train_epoch(cur_epoch)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/runners/runner_base.py", line 437, in train_epoch
+    return self.task.train_epoch(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/tasks/base_task.py", line 116, in train_epoch
+    return self._train_inner_loop(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/tasks/base_task.py", line 225, in _train_inner_loop
+    scaler.scale(loss).backward()
+  File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 23.00 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.47 GiB is allocated by PyTorch, and 396.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py", line 104, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py", line 100, in main
+[rank0]:     runner.train()
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/runners/runner_base.py", line 377, in train
+[rank0]:     train_stats = self.train_epoch(cur_epoch)
+[rank0]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/runners/runner_base.py", line 437, in train_epoch
+[rank0]:     return self.task.train_epoch(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/tasks/base_task.py", line 116, in train_epoch
+[rank0]:     return self._train_inner_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/minigpt4/tasks/base_task.py", line 225, in _train_inner_loop
+[rank0]:     scaler.scale(loss).backward()
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/_tensor.py", line 625, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/autograd/__init__.py", line 354, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/home/g202516290/Documents/carbonateGPT/carbongpt/lib/python3.12/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 23.00 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.47 GiB is allocated by PyTorch, and 396.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

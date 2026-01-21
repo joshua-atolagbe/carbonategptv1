@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            6e3lnj9nwp7okgnk8lamn871wq2ngfmk:
+                args:
+                    - --cfg-path
+                    - train_configs/minigptv2_finetune.yaml
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1888559353856"
+                        used: "1589615890432"
+                email: atolagbejoshua2@gmail.com
+                executable: /home/g202516290/Documents/carbonateGPT/carbongpt/bin/python
+                git:
+                    commit: adb55c3f9d06bb2305ec5a2804e82963a9df3229
+                    remote: https://github.com/Vision-CAIR/MiniGPT-Med.git
+                gpu: NVIDIA RTX A4500
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 7168
+                      memoryTotal: "21464350720"
+                      name: NVIDIA RTX A4500
+                      uuid: GPU-0b1f2000-284b-1ad0-4952-3502223e2392
+                    - architecture: Ampere
+                      cudaCores: 7168
+                      memoryTotal: "21464350720"
+                      name: NVIDIA RTX A4500
+                      uuid: GPU-3040d433-aa1c-4bf0-d05f-a9916ecede2c
+                host: 76-2223-04
+                memory:
+                    total: "134899785728"
+                os: Linux-6.8.0-86-generic-x86_64-with-glibc2.39
+                program: /home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py
+                python: CPython 3.12.3
+                root: /home/g202516290/Documents/carbonateGPT/MiniGPT-Med
+                startedAt: "2025-11-10T11:56:49.001430Z"
+                writerId: 6e3lnj9nwp7okgnk8lamn871wq2ngfmk
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 63
+                - 71
+                - 98
+                - 105
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 63
+                - 71
+                - 98
+                - 105
+            "3":
+                - 1
+                - 13
+            "4": 3.12.3
+            "5": 0.22.3
+            "6": 4.35.2
+            "12": 0.22.3
+            "13": linux-x86_64

@@ -1,0 +1,6 @@
+datasets:
+  mimic_cxr:
+    data_type: images
+    build_info:
+      image_path: /home/g202516290/Documents/carbonateGPT/images
+      ann_path: /home/g202516290/Documents/carbonateGPT/carbonGPT.json

@@ -1,0 +1,51 @@
+{
+  "os":  "Linux-6.8.0-86-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-11-10T13:35:12.395466Z",
+  "args":  [
+    "--cfg-path",
+    "train_configs/minigptv2_finetune.yaml"
+  ],
+  "program":  "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/Vision-CAIR/MiniGPT-Med.git",
+    "commit":  "adb55c3f9d06bb2305ec5a2804e82963a9df3229"
+  },
+  "email":  "atolagbejoshua2@gmail.com",
+  "root":  "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med",
+  "host":  "76-2223-04",
+  "executable":  "/home/g202516290/Documents/carbonateGPT/carbongpt/bin/python",
+  "cpu_count":  16,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA RTX A4500",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "1888559353856",
+      "used":  "1589541617664"
+    }
+  },
+  "memory":  {
+    "total":  "134899785728"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A4500",
+      "memoryTotal":  "21464350720",
+      "cudaCores":  7168,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-0b1f2000-284b-1ad0-4952-3502223e2392"
+    },
+    {
+      "name":  "NVIDIA RTX A4500",
+      "memoryTotal":  "21464350720",
+      "cudaCores":  7168,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-3040d433-aa1c-4bf0-d05f-a9916ecede2c"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "utw3pprjjyfhba80u6oiw60fx6zyc154"
+}

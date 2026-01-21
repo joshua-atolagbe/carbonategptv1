@@ -1,0 +1,177 @@
+{
+    "run": {
+        "task": "image_text_pretrain",
+        "lr_sched": "linear_warmup_cosine_lr",
+        "init_lr": 1e-05,
+        "min_lr": 8e-05,
+        "warmup_lr": 1e-06,
+        "weight_decay": 0.05,
+        "max_epoch": 100,
+        "num_workers": 0,
+        "warmup_steps": 1000,
+        "iters_per_epoch": 1000,
+        "seed": 42,
+        "output_dir": "expermints_folder",
+        "amp": true,
+        "resume_ckpt_path": null,
+        "accum_grad_iters": 4,
+        "evaluate": false,
+        "train_splits": [
+            "train"
+        ],
+        "device": "cuda",
+        "world_size": 1,
+        "dist_url": "env://",
+        "distributed": true,
+        "wandb_log": true,
+        "job_name": "minigptv2_finetune_final",
+        "rank": 0,
+        "gpu": 0,
+        "dist_backend": "nccl"
+    },
+    "model": {
+        "arch": "minigpt_v2",
+        "image_size": 448,
+        "drop_path_rate": 0,
+        "use_grad_checkpoint": true,
+        "vit_precision": "fp16",
+        "freeze_vit": true,
+        "prompt": "",
+        "llama_model": "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/Llama-2-7b-chat-hf",
+        "lora_r": 64,
+        "lora_alpha": 16,
+        "model_type": "pretrain",
+        "max_txt_len": 1024,
+        "end_sym": "</s>",
+        "ckpt": "/home/g202516290/Documents/carbonateGPT/checkpoint_stage3.pth",
+        "chat_template": true
+    },
+    "preprocess": {
+        "vis_processor": {
+            "train": {
+                "name": "blip2_image_train",
+                "image_size": 448
+            },
+            "eval": {
+                "name": "blip2_image_eval",
+                "image_size": 448
+            }
+        },
+        "text_processor": {
+            "train": {
+                "name": "blip_caption"
+            },
+            "eval": {
+                "name": "blip_caption"
+            }
+        }
+    },
+    "datasets": {
+        "mimic_cxr": {
+            "data_type": "images",
+            "build_info": {
+                "image_path": "/home/g202516290/Documents/carbonateGPT/images",
+                "ann_path": "/home/g202516290/Documents/carbonateGPT/carbonGPT.json"
+            },
+            "batch_size": 1,
+            "vis_processor": {
+                "train": {
+                    "name": "blip2_image_train",
+                    "image_size": 448
+                }
+            },
+            "text_processor": {
+                "train": {
+                    "name": "blip_caption"
+                }
+            }
+        }
+    }
+}
+{
+    "run": {
+        "task": "image_text_pretrain",
+        "lr_sched": "linear_warmup_cosine_lr",
+        "init_lr": 1e-05,
+        "min_lr": 8e-05,
+        "warmup_lr": 1e-06,
+        "weight_decay": 0.05,
+        "max_epoch": 100,
+        "num_workers": 0,
+        "warmup_steps": 1000,
+        "iters_per_epoch": 1000,
+        "seed": 42,
+        "output_dir": "expermints_folder",
+        "amp": true,
+        "resume_ckpt_path": null,
+        "accum_grad_iters": 4,
+        "evaluate": false,
+        "train_splits": [
+            "train"
+        ],
+        "device": "cuda",
+        "world_size": 1,
+        "dist_url": "env://",
+        "distributed": false,
+        "wandb_log": true,
+        "job_name": "minigptv2_finetune_final"
+    },
+    "model": {
+        "arch": "minigpt_v2",
+        "image_size": 448,
+        "drop_path_rate": 0,
+        "use_grad_checkpoint": true,
+        "vit_precision": "fp16",
+        "freeze_vit": true,
+        "prompt": "",
+        "llama_model": "/home/g202516290/Documents/carbonateGPT/MiniGPT-Med/Llama-2-7b-chat-hf",
+        "lora_r": 64,
+        "lora_alpha": 16,
+        "model_type": "pretrain",
+        "max_txt_len": 1024,
+        "end_sym": "</s>",
+        "ckpt": "/home/g202516290/Documents/carbonateGPT/checkpoint_stage3.pth",
+        "chat_template": true
+    },
+    "preprocess": {
+        "vis_processor": {
+            "train": {
+                "name": "blip2_image_train",
+                "image_size": 448
+            },
+            "eval": {
+                "name": "blip2_image_eval",
+                "image_size": 448
+            }
+        },
+        "text_processor": {
+            "train": {
+                "name": "blip_caption"
+            },
+            "eval": {
+                "name": "blip_caption"
+            }
+        }
+    },
+    "datasets": {
+        "mimic_cxr": {
+            "data_type": "images",
+            "build_info": {
+                "image_path": "/home/g202516290/Documents/carbonateGPT/images",
+                "ann_path": "/home/g202516290/Documents/carbonateGPT/carbonGPT.json"
+            },
+            "batch_size": 1,
+            "vis_processor": {
+                "train": {
+                    "name": "blip2_image_train",
+                    "image_size": 448
+                }
+            },
+            "text_processor": {
+                "train": {
+                    "name": "blip_caption"
+                }
+            }
+        }
+    }
+}
