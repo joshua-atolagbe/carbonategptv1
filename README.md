@@ -1,8 +1,9 @@
 # Vision-Language Models for Automated Carbonate Petrography and Depositional Environment Interpretation
 Joshua Atolagbe, Ardiansyah Koeshidayatullah
 
-King Fahd University of Petroleum and Minerals
+Department of Geosciences, King Fahd University of Petroleum and Minerals
 
+(Submitted to Computers & Geosciences)
 
 ## Credit
 
