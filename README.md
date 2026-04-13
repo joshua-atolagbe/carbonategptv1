@@ -5,6 +5,8 @@ Department of Geosciences, King Fahd University of Petroleum and Minerals
 
 
 ---
+## Model Architecture
+<img src='imgs/architecture.png'>
 
 ## Running Inference
 
