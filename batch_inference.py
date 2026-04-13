@@ -1,11 +1,11 @@
 """
-MiniGPT-Med — Batch Inference on a Folder of Images
+CarbonateGPTv1 — Batch Inference on a Folder of Images
 =====================================================
 Runs a single question against every image in a folder and saves results to CSV.
 
 Usage
 -----
-    python minigptmed_batch_inference.py \
+    python batch_inference.py \
         --cfg-path  eval_configs/minigptv2_eval.yaml \
         --image-dir Med_examples_v2/ \
         --question  "Describe the findings in this medical image." \
@@ -29,7 +29,7 @@ import torch.backends.cudnn as cudnn
 from PIL import Image
 from tqdm import tqdm
 
-# MiniGPT-Med imports
+# imports
 from minigpt4.common.config   import Config
 from minigpt4.common.registry import registry
 from minigpt4.conversation.conversation import Conversation, SeparatorStyle, Chat
@@ -53,7 +53,7 @@ cudnn.deterministic = True
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="MiniGPT-Med batch inference over a folder")
+    parser = argparse.ArgumentParser(description="CarbonateGPTv1 — Batch Inference on a Folder of Images")
     parser.add_argument("--cfg-path",       default="eval_configs/minigptv2_eval.yaml")
     parser.add_argument("--image-dir",      required=True,
                         help="Folder containing medical images (searched recursively).")
@@ -72,7 +72,7 @@ def parse_args():
     parser.add_argument("--repetition-penalty", type=float, default=1.05)
     parser.add_argument("--recursive",      action="store_true",
                         help="Search sub-folders recursively for images.")
-    # Required by MiniGPT-Med's Config class internally — do not remove
+    # Required by Config class internally — do not remove
     parser.add_argument("--options", nargs="+", default=None,
                         help="Override config values in key=value format (e.g. model.lora_r=32).")
     return parser.parse_args()
@@ -102,7 +102,7 @@ def build_model_and_chat(args, device):
     model_cls = registry.get_model_class(model_config.arch)
     model     = model_cls.from_config(model_config).to(device)
     model.eval()
-    print("[INFO] Model ready ✓")
+    print("[INFO] Model ready")
 
     vis_proc_cfg  = cfg.datasets_cfg.cc_sbu_align.vis_processor.train
     vis_processor = (
@@ -141,7 +141,7 @@ def infer_single(chat, image_path: Path, question: str,
 
     # Step 3: build conversation state and populate img_list with the embedding
     chat_state = conv_template.copy()
-    img_list   = [image_emb]                                  # tensor with .device ✓
+    img_list   = [image_emb]                                  # tensor with .device 
     chat_state.append_message(chat_state.roles[0], "<Img><ImageHere></Img>")
 
     # Step 4: append the question and generate
@@ -218,7 +218,7 @@ def main():
                         row["answer"] = answer
                         success += 1
                         # Also print to terminal
-                        tqdm.write(f"\n📷 {img_path.name}")
+                        tqdm.write(f"\n {img_path.name}")
                         tqdm.write(f"   Q: {question}")
                         tqdm.write(f"   A: {answer}")
                     except Exception as e:
