@@ -1,5 +1,5 @@
 # Carbonate Microfacies Interpreter
-#Author: Dr. CarbonateGPT (2024)
+# Author: Joshua Atolagbe (2025)
 # An AI-powered tool for interpreting carbonate microfacies (SMFs) and their associated depositional environments (FZs) 
 # based on textual descriptions of thin sections. Utilizes a bi-encoder for retrieval and a cross-encoder for fine-grained ranking,
 # grounded in the Flügel (2010) classification system.
